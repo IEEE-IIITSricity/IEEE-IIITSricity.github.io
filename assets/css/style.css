@@ -586,7 +586,60 @@ header
     display: flex !important;
   }
 }
+/* 
+---------------------------------------------
+dropdown
+--------------------------------------------- 
+*/
+.drop{
+	margin: 0px;
+	padding:0px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 11em;
+	background-color:black;
+	line-height: 2px;
+}
+.drop-item{
+  color: white;
+ 
+}
+.drop-item:hover{
+	color: #ed563b;
+}
+.drop > li > a{
+		color:white;
+		text-decoration:none;
+		text-decoration-color: white;	
+		display: block;
+		transition: transform .2s
+}
+.drop > li > a:hover{
+	transform: scale(1.1); 
 
+}
+
+.nav > li > ul{
+	background: rgba(0, 0, 0, 0.5);
+	visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+	position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 0px;
+	
+  display: none;
+}
+.nav li:hover > ul,
+.nav li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+.nav li ul li {
+	clear: both;
+  width: 100%;
+}
 /* 
 ---------------------------------------------
 banner
