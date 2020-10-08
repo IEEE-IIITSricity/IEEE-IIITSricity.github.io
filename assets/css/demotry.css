@@ -583,6 +583,78 @@ header
   }
 }
 
+
+/*
+--------------------------------------------- 
+header-date-event
+--------------------------------------------- 
+*/
+
+#header-date-event{
+  z-index: 100;
+  background: #ed563b;
+  position: fixed;
+  right: 0px;
+  top: 100px;
+  cursor: pointer;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  border-radius: 3px;
+  text-orientation: mixed;
+  font-size: 13px;
+  color: #fff;
+  font-weight: bold;
+  transition:all 0.1s;
+  padding: 10px 8px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+ 
+}
+#header-date-event:hover{
+  background-color: #ed563b;
+}
+
+
+#mySidePanel{
+  width: 280px;
+  position: fixed;
+  visibility: hidden;
+  z-index: 100;
+  top: 100px;
+  right: 0px;
+  background-color: #39464e;
+  min-height: 200px;
+  max-height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transition:all 0.05s ease-in-out;
+  font-size: 14px;
+  line-height: 1.428px;
+  color: #fff;
+  line-height: 1.42857143;
+  padding: 10px;
+  font-weight: 600px;
+}
+
+.Events-individual{
+  margin: 15px 0;
+}
+.Events-individual a{
+  color:white;
+		text-decoration:none;
+		text-decoration-color: white;	
+    display: inline-block;
+    text-align: top;
+    transition: transform .2s;
+    border-bottom: dotted white 2px;
+    padding-bottom: 5px;
+}
+.Events-individual a:hover{
+  transform: scale(1.05);
+}
+
+
+
 /* 
 ---------------------------------------------
 banner
