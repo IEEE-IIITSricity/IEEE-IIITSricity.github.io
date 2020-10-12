@@ -52,7 +52,7 @@ header .site-logo { padding: 30px 0px 0px 0px; width: 220px; float: left; transi
 header .site-logo h1 { margin: 0px; }
 header .site-logo h1 a { font-size: 36px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 800; text-decoration: none; text-transform: uppercase; text-shadow: rgb(3, 3, 3) 0px 2px 5px; transition: all 0.7s ease;  }
 header .site-logo h1 a span { color: #ff9000; }
-header.smaller { padding: 0px 0px 0px 0px; height: 60px; transition: all 0.3s; background: rgba(0, 0, 0, 0.75); }
+header.smaller { padding: 0px 0px 0px 0px; height: 60px; transition: all 0.3s; background: }
 header.smaller .site-logo {padding: 13px 0px 0px 0px; }
 header.smaller .site-logo h1 { line-height: 30px; }
 header.smaller .site-logo h1 a { font-size: 30px;  }
