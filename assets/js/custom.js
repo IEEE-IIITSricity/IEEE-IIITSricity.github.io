@@ -51,7 +51,15 @@
 		$(".menu-trigger").on('click', function() {	
 			$(this).toggleClass('active');
 			$('.header-area .nav').slideToggle(200);
+			$('.scroll-to-section').css("margin","0px");
+			$('.scroll-to-section').css("transition","all .3s ease-in-out")
+
 		});
+		
+		$('.nav li a').on("click", function(){
+			$('.header-area .nav').slideUp();
+		});
+		
 	}
 
 

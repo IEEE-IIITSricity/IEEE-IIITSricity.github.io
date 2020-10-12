@@ -355,11 +355,16 @@ header
   background-color: #1e1e1e;
   display: block;
   position: absolute;
-  width: 30px;
   height: 2px;
   left: 0;
 }
-
+.header-area .main-nav .menu-trigger span{
+  width : 22.5px;
+}
+.header-area .main-nav .menu-trigger span:before,
+.header-area .main-nav .menu-trigger span:after{
+  width: 22.5px !important;
+}
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
@@ -409,7 +414,7 @@ header
   -ms-transform-origin: 33% 0;
   -webkit-transform-origin: 33% 0;
   transform-origin: 33% 0;
-  top: 10px;
+  top: 8px;
 }
 
 .header-area .main-nav .menu-trigger.active span,
