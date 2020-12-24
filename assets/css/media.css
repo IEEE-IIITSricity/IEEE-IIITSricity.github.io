@@ -466,3 +466,27 @@
 	}
 
 }
+
+@media only screen and (max-width:1000px) {
+
+	.carousel-img{
+		width: 600px !important;
+		height: 300px !important;
+
+	}
+}
+
+@media only screen and (max-width:600px) {
+
+	.carousel-img{
+		width: 360px !important;
+		height: 200px !important;
+	}
+}
+
+@media only screen and (max-width:766px) {
+
+	#trainers > .container > .row > .col-lg-3 {
+		margin-left: 18%;
+	}
+}
