@@ -117,8 +117,8 @@ body {
 
 .section-heading {
   text-align: center;
-  margin-top: 120px;
-  margin-bottom: 80px;
+  margin-top: 90px;
+  margin-bottom: 6px;
 }
 
 .section-heading h2 {
@@ -792,7 +792,6 @@ Our Classes
 #our-classes {
   margin-bottom: 140px;
 }
-
 #tabs ul {
   margin: 0;
   padding: 0;
