@@ -651,7 +651,6 @@ header-date-event
     display: inline-block;
     text-align: top;
     transition: transform .2s;
-    border-bottom: dotted white 2px;
     padding-bottom: 5px;
 }
 .Events-individual a:hover{
